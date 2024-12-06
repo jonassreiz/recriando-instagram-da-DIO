@@ -51,8 +51,10 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
+    color: rgb(160, 160, 160);
     width: 100%;
     padding: 1.3rem 0;
+    margin-top: 10px;
     border: 1px solid lightgray;
 }
 
@@ -65,15 +67,19 @@ body {
 }
 
 .profile-photo {
+    width: 95px;
+    height: 95px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    background-size: cover;
 }
 
 .profile-photo img {
-    height: 6rem;
+    width: 100px;
+    height: auto;
 }
 
 .instagram-login {
@@ -120,11 +126,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+    background-image: url('./assets/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url('./assets/googleplay-button.png');
 }
 
 /* media queries */
